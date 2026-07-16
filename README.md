@@ -27,8 +27,6 @@ GEMINI_API_KEY=your_gemini_api_key_here
 GEMINI_MODEL=gemini-3.1-flash-lite
 ```
 
-Do not commit `.env`. It is ignored by `.gitignore`; only `.env.example` should be committed.
-
 ## Run
 
 Run the full Gemini-backed workflow:
@@ -89,10 +87,10 @@ For submission screenshots or a short demo video, run `node index.js` and captur
 
 ## Time Spent
 
-Approximately 2-3 hours.
+Approximately 4 hours.
 
 ## AI Coding Tools
 
-Gemini was used to reason through the problem statement, compare implementation options, and support prompt/design exploration.
+Gemini was used to reason through the problem statement, compare implementation options and finalize one.
 
-Codex was used to inspect the assignment brief, implement the CLI workflow, improve validation coverage, add a second synthetic test pack, and prepare submission documentation.
+Codex was used to implement the CLI workflow, improve the approach by including BM25, implement a proper validation coverage, add a second synthetic test pack, and prepare submission documentation.
