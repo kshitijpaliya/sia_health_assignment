@@ -1,0 +1,55 @@
+{
+  "data_notice": "Fully synthetic candidate-assessment data. Not for clinical use.",
+  "logs": [
+    {
+      "source_id": "LOG.2026-05-15",
+      "date": "2026-05-15",
+      "reported_progress": [
+        "Breakfast became more regular after adding warm options",
+        "Late-night snacking reduced when an evening snack was planned",
+        "Walking after lunch helped afternoon sleepiness"
+      ],
+      "what_worked": [
+        "warm breakfast",
+        "planned evening snack",
+        "post-lunch walk"
+      ],
+      "constraint": "Office days make elaborate lunches unrealistic"
+    },
+    {
+      "source_id": "LOG.2026-06-12",
+      "date": "2026-06-12",
+      "reported_progress": [
+        "Reflux was worse when dinner happened after 10 pm",
+        "Canteen lunch was easier to follow than packed lunch",
+        "Client disliked overnight oats and cold breakfasts"
+      ],
+      "what_did_not_work": [
+        "overnight oats",
+        "cold breakfast bowls",
+        "late heavy dinners"
+      ],
+      "available_dinner_options": [
+        "home dal, rice and cooked vegetable",
+        "roti, paneer bhurji and cooked vegetable",
+        "khichdi with curd"
+      ]
+    },
+    {
+      "source_id": "LOG.2026-07-10",
+      "date": "2026-07-10",
+      "reported_progress": [
+        "Energy is better on days with a mid-evening snack",
+        "Reflux is currently mild when dinner is earlier and lighter",
+        "Meal service is used twice weekly during late office days",
+        "Client wants shelf-stable office snacks",
+        "Protein powder is not currently used"
+      ],
+      "unknowns": [
+        "No new laboratory report",
+        "Current iron supplement status is not confirmed",
+        "Current reflux medication status is unknown"
+      ]
+    }
+  ]
+}

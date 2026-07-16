@@ -1,0 +1,83 @@
+{
+  "data_notice": "Fully synthetic candidate-assessment data. It is not a Sia Health client record and must not be used for clinical care.",
+  "source_id": "PROFILE.CURRENT",
+  "client_id": "SIA-DEMO-02",
+  "as_of_date": "2026-07-10",
+  "demographics": {
+    "age": 31,
+    "height_cm": 160,
+    "initial_weight_kg": 62,
+    "current_weight_kg": 61
+  },
+  "reported_conditions": [
+    "prediabetes risk noted historically",
+    "iron deficiency history",
+    "migraine history"
+  ],
+  "current_status": [
+    "Afternoon energy dips are still reported on office days",
+    "Digestion is generally comfortable when dinner is not very late",
+    "Weight is stable around 61 kg; aggressive weight loss is not a goal",
+    "Activity includes walking commute and two beginner strength sessions weekly"
+  ],
+  "diet_and_access": {
+    "dietary_preference": "vegetarian",
+    "living_context": "office-and-home",
+    "canteen_lunch_available": true,
+    "shared_kitchen_access_days_per_week": 7,
+    "meal_service_evenings_per_week": 2,
+    "usual_available_dinners": [
+      "home dal, rice and cooked vegetable",
+      "roti, paneer bhurji and cooked vegetable",
+      "khichdi with curd",
+      "meal-service vegetarian thali"
+    ]
+  },
+  "preferences_and_constraints": [
+    "Prefers warm breakfasts",
+    "Does not like overnight oats",
+    "Needs office lunch guidance that works with a canteen",
+    "Late dinners worsen reflux symptoms",
+    "Wants snacks that do not require refrigeration",
+    "Protein powder is not currently used"
+  ],
+  "selected_historical_labs": [
+    {
+      "source_id": "LAB.11",
+      "test": "HbA1c",
+      "result": "5.8",
+      "note": "Recorded as historically borderline; unit and reference range not supplied"
+    },
+    {
+      "source_id": "LAB.12",
+      "test": "Ferritin",
+      "result": "14",
+      "note": "Recorded as low historically; unit, date and reference range not supplied"
+    },
+    {
+      "source_id": "LAB.13",
+      "test": "Hemoglobin",
+      "result": "11.6",
+      "note": "Recorded historically; unit and reference range not supplied"
+    }
+  ],
+  "historical_supplement_record": [
+    {
+      "name": "Iron",
+      "recorded_course": "8 weeks",
+      "status": "current status unknown"
+    },
+    {
+      "name": "Vitamin C",
+      "recorded_course": "with iron course",
+      "status": "current status unknown"
+    }
+  ],
+  "open_questions_for_human_confirmation": [
+    "Current iron supplement use and completion status",
+    "Current reflux frequency and medical follow-up status",
+    "Laboratory units, reference ranges and dates",
+    "Migraine triggers and any medication use",
+    "Any unrecorded allergies or intolerances"
+  ]
+}

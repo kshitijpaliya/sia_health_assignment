@@ -1,0 +1,55 @@
+{
+  "data_notice": "Fully synthetic candidate-assessment data. Not for clinical use.",
+  "logs": [
+    {
+      "source_id": "LOG.2026-04-20",
+      "date": "2026-04-20",
+      "reported_progress": [
+        "Breakfast became more consistent",
+        "Energy improved from 3/5 to 4/5",
+        "Acidity and reflux almost completely resolved",
+        "Hydration and post-meal walking improved"
+      ],
+      "what_worked": [
+        "regular breakfast",
+        "simple protein inclusion",
+        "hydration",
+        "post-meal walks"
+      ],
+      "constraint": "Hostel setting limits major lunch and dinner changes"
+    },
+    {
+      "source_id": "LOG.2026-05-25",
+      "date": "2026-05-25",
+      "reported_progress": [
+        "Energy and digestion remained good",
+        "Weight increased to 44 kg",
+        "Strength training was started"
+      ],
+      "what_did_not_work": [
+        "Dinner suggestions requiring separate salad preparation or extensive cooking"
+      ],
+      "available_dinner_options": [
+        "roti and sabzi",
+        "idli and sambar",
+        "dosa and sambar"
+      ]
+    },
+    {
+      "source_id": "LOG.2026-07-05",
+      "date": "2026-07-05",
+      "reported_progress": [
+        "A menstrual cycle was reported in June after a long gap; causality is unknown",
+        "Energy, digestion and sleep are currently good",
+        "A nearby meal service is available four evenings per week",
+        "Client prefers savoury breakfasts and quick preparation",
+        "Protein powder is acceptable only 3-4 times per week",
+        "Client feels hungry after dinner on strength-training days"
+      ],
+      "unknowns": [
+        "No new laboratory report",
+        "Current supplement status is not confirmed"
+      ]
+    }
+  ]
+}

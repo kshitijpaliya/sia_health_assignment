@@ -1,0 +1,99 @@
+{
+  "data_notice": "Fully synthetic candidate-assessment data. It is not a Sia Health client record and must not be used for clinical care.",
+  "source_id": "PROFILE.CURRENT",
+  "client_id": "SIA-DEMO-01",
+  "as_of_date": "2026-07-05",
+  "demographics": {
+    "age": 23,
+    "height_cm": 146,
+    "initial_weight_kg": 43,
+    "current_weight_kg": 44
+  },
+  "reported_conditions": [
+    "PCOS",
+    "reported thyroid concern",
+    "vitamin B12 deficiency",
+    "vitamin D deficiency"
+  ],
+  "current_status": [
+    "Energy and digestion are currently reported as good",
+    "A menstrual cycle was reported in June 2026 after a prolonged gap; future regularity is unknown",
+    "Weight is stable around 44 kg; weight loss is not a goal",
+    "Activity includes 7000-8000 steps, yoga and beginner strength training"
+  ],
+  "diet_and_access": {
+    "dietary_preference": "vegetarian",
+    "living_context": "hostel",
+    "canteen_lunch_available": true,
+    "shared_kitchen_access_days_per_week": 3,
+    "meal_service_evenings_per_week": 4,
+    "usual_available_dinners": [
+      "roti and sabzi",
+      "idli and sambar",
+      "dosa and sambar",
+      "vegetarian grain-and-legume bowl"
+    ]
+  },
+  "preferences_and_constraints": [
+    "Prefers savoury breakfasts",
+    "Breakfast should usually take less than 15 minutes",
+    "Protein powder is acceptable only 3-4 times per week",
+    "Daily elaborate cooking or prepared salads are unrealistic",
+    "Feels hungry after dinner on strength-training days"
+  ],
+  "selected_historical_labs": [
+    {
+      "source_id": "LAB.01",
+      "test": "Testosterone",
+      "result": "84.5",
+      "note": "Recorded as elevated; unit and reference range not supplied"
+    },
+    {
+      "source_id": "LAB.02",
+      "test": "Vitamin B12",
+      "result": "112",
+      "note": "Recorded as low; unit and reference range not supplied"
+    },
+    {
+      "source_id": "LAB.03",
+      "test": "Vitamin D",
+      "result": "8.1",
+      "note": "Recorded as low; unit and reference range not supplied"
+    },
+    {
+      "source_id": "LAB.04",
+      "test": "TSH",
+      "result": "3.2",
+      "note": "Unit, reference range and treatment status not supplied"
+    }
+  ],
+  "historical_supplement_record": [
+    {
+      "name": "Vitamin D",
+      "recorded_course": "10 weeks",
+      "status": "current status unknown"
+    },
+    {
+      "name": "Vitamin B12",
+      "recorded_course": "45 days",
+      "status": "current status unknown"
+    },
+    {
+      "name": "Iron",
+      "recorded_course": "30 days",
+      "status": "current status unknown"
+    },
+    {
+      "name": "Myo-inositol",
+      "recorded_course": "1 month",
+      "status": "current status unknown"
+    }
+  ],
+  "open_questions_for_human_confirmation": [
+    "Current supplement use and completion status",
+    "Current medical follow-up for very irregular cycles",
+    "Laboratory units, reference ranges and dates",
+    "Current thyroid diagnosis and treatment status",
+    "Any unrecorded allergies or intolerances"
+  ]
+}
