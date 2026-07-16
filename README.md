@@ -77,13 +77,27 @@ Final review findings:
 
 For submission screenshots or a short demo video, run `node index.js` and capture the terminal output showing the snapshot, retrieval, validation/revision, and final JSON sections.
 
-## Assumptions and Limitations
+## Assumptions
 
-- The data is fully synthetic and must not be used for care.
-- The assignment rules are simplified assessment rules, not full clinical guidance.
-- The fallback draft is deterministic so reviewers can run the workflow without an API key.
-- The safety checks are conservative string checks and review functions, not a substitute for human clinical review.
+- All input data is synthetic assignment data. The system treats it as a simulated client record, not as a real medical record.
+- The latest dated profile/log entry is treated as the current source of truth when older and newer information conflict.
+- Hard constraints such as vegetarian preference, hostel feasibility, food access, and runtime updates are applied before and after retrieval.
+- Unknowns are preserved instead of guessed. Examples include supplement status, thyroid lab values, allergy history, and clinical follow-up.
+- The generated plan is intended as draft decision support for a nutritionist, not as direct advice to the client.
+- The workflow assumes the available source files are small enough for transparent lexical retrieval and source-by-source inspection.
+- The mandatory change test assumes the runtime update, "The client no longer wants to use protein powder," should override any older plan or recommendation mentioning protein powder.
 - A second synthetic test pack is available under `data/sample_case_2/` to check that the workflow is not only tailored to the original case.
+
+## Limitations
+
+- This is a prototype CLI, not a production clinical system. It does not provide diagnosis, treatment, dosage guidance, or medical clearance.
+- The nutrition logic is rule-based and assignment-specific. It does not calculate calories, macros, micronutrients, glycemic load, drug-nutrient interactions, or medical risk.
+- Validation uses deterministic checks and structured review rules. These checks catch known constraint violations, but they are not a substitute for a qualified nutritionist or clinician.
+- BM25-style lexical retrieval is inspectable and appropriate for this small corpus, but it can miss relevant context when wording differs significantly. A larger system would likely use hybrid retrieval with embeddings plus lexical search.
+- Gemini output can vary between runs. The validator and revision step reduce obvious issues, but generated wording and meal choices may differ.
+- The offline fallback is deterministic and useful for testing without an API key, but it is intentionally simpler than model-generated drafting.
+- The system does not persist user sessions, maintain a database, authenticate users, or handle private health information.
+- The sample output is representative, not a fixed golden file. Scores and final wording may change if the data, prompts, model, or retrieval parameters are changed.
 
 ## Time Spent
 
